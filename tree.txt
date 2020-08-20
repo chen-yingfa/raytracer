@@ -1,0 +1,224 @@
+卷 Data 的文件夹 PATH 列表
+卷序列号为 8AAF-AC44
+D:.
+|   tree.txt
+|   
+\---code
+    |   CMakeLists.txt
+    |   run_all.sh
+    |   
+    +---.vscode
+    |       launch.json
+    |       settings.json
+    |       tasks.json
+    |       
+    +---bin
+    |       PA1
+    |       
+    +---build
+    |   |   cmake_install.cmake
+    |   |   Makefile
+    |   |   
+    |   +---.cmake
+    |   |   \---api
+    |   |       \---v1
+    |   |           \---query
+    |   |               \---client-vscode
+    |   |                       query.json
+    |   |                       
+    |   +---CMakeFiles
+    |   |   |   cmake.check_cache
+    |   |   |   CMakeDirectoryInformation.cmake
+    |   |   |   CMakeError.log
+    |   |   |   CMakeOutput.log
+    |   |   |   feature_tests.bin
+    |   |   |   feature_tests.cxx
+    |   |   |   Makefile.cmake
+    |   |   |   Makefile2
+    |   |   |   progress.marks
+    |   |   |   TargetDirectories.txt
+    |   |   |   
+    |   |   +---3.10.2
+    |   |   |   |   CMakeCXXCompiler.cmake
+    |   |   |   |   CMakeDetermineCompilerABI_CXX.bin
+    |   |   |   |   CMakeSystem.cmake
+    |   |   |   |   
+    |   |   |   \---CompilerIdCXX
+    |   |   |       |   a.out
+    |   |   |       |   CMakeCXXCompilerId.cpp
+    |   |   |       |   
+    |   |   |       \---tmp
+    |   |   +---CMakeTmp
+    |   |   \---PA1.dir
+    |   |       |   build.make
+    |   |       |   cmake_clean.cmake
+    |   |       |   CXX.includecache
+    |   |       |   depend.internal
+    |   |       |   depend.make
+    |   |       |   DependInfo.cmake
+    |   |       |   flags.make
+    |   |       |   link.txt
+    |   |       |   progress.make
+    |   |       |   
+    |   |       \---src
+    |   |               bvh.cpp.o
+    |   |               image.cpp.o
+    |   |               main.cpp.o
+    |   |               mesh.cpp.o
+    |   |               scene_parser.cpp.o
+    |   |               texture.cpp.o
+    |   |               
+    |   \---deps
+    |       +---stb
+    |       \---vecmath
+    |           |   cmake_install.cmake
+    |           |   libvecmath.a
+    |           |   Makefile
+    |           |   
+    |           \---CMakeFiles
+    |               |   CMakeDirectoryInformation.cmake
+    |               |   progress.marks
+    |               |   
+    |               \---vecmath.dir
+    |                   |   build.make
+    |                   |   cmake_clean.cmake
+    |                   |   cmake_clean_target.cmake
+    |                   |   CXX.includecache
+    |                   |   depend.internal
+    |                   |   depend.make
+    |                   |   DependInfo.cmake
+    |                   |   flags.make
+    |                   |   link.txt
+    |                   |   progress.make
+    |                   |   
+    |                   \---src
+    |                           Matrix2f.cpp.o
+    |                           Matrix3f.cpp.o
+    |                           Matrix4f.cpp.o
+    |                           Quat4f.cpp.o
+    |                           Vector2f.cpp.o
+    |                           Vector3f.cpp.o
+    |                           Vector4f.cpp.o
+    |                           
+    +---deps
+    |   \---vecmath
+    |       |   CMakeLists.txt
+    |       |   
+    |       +---include
+    |       |       Matrix2f.h
+    |       |       Matrix3f.h
+    |       |       Matrix4f.h
+    |       |       Quat4f.h
+    |       |       vecmath.h
+    |       |       Vector2f.h
+    |       |       Vector3f.h
+    |       |       Vector4f.h
+    |       |       
+    |       \---src
+    |               Matrix2f.cpp
+    |               Matrix3f.cpp
+    |               Matrix4f.cpp
+    |               Quat4f.cpp
+    |               Vector2f.cpp
+    |               Vector3f.cpp
+    |               Vector4f.cpp
+    |               
+    +---include
+    |       aabb.hpp
+    |       box.hpp
+    |       bvh.hpp
+    |       camera.hpp
+    |       curve.hpp
+    |       group.hpp
+    |       hit.hpp
+    |       image.hpp
+    |       light.hpp
+    |       material.hpp
+    |       mesh.hpp
+    |       object3d.hpp
+    |       perlin.hpp
+    |       plane.hpp
+    |       ray.hpp
+    |       rectangle.hpp
+    |       revsurface.hpp
+    |       sceneGenerator.hpp
+    |       scene_parser.hpp
+    |       sphere.hpp
+    |       stb_image.h
+    |       texture.hpp
+    |       transform.hpp
+    |       triangle.hpp
+    |       utils.hpp
+    |       
+    +---mesh
+    |       bunny_1k.obj
+    |       cube.obj
+    |       
+    +---output
+    |   |   cube.bmp
+    |   |   empty.ppm
+    |   |   final_balls.bmp
+    |   |   final_glassRabbit.bmp
+    |   |   final_glassRabbitSky.bmp
+    |   |   final_minecraft_house.bmp
+    |   |   final_waterdrop.bmp
+    |   |   minecraft.bmp
+    |   |   scene01.bmp
+    |   |   space.bmp
+    |   |   space.ppm
+    |   |   space1.bmp
+    |   |   
+    |   \---temp
+    |       +---bmp
+    |       |       100space.bmp
+    |       |       10space.bmp
+    |       |       20space.bmp
+    |       |       30space.bmp
+    |       |       40space.bmp
+    |       |       50space.bmp
+    |       |       60space.bmp
+    |       |       70space.bmp
+    |       |       80space.bmp
+    |       |       90space.bmp
+    |       |       
+    |       \---ppm
+    |               100space.ppm
+    |               10space.ppm
+    |               20space.ppm
+    |               30space.ppm
+    |               40space.ppm
+    |               50space.ppm
+    |               60space.ppm
+    |               70space.ppm
+    |               80space.ppm
+    |               90space.ppm
+    |               
+    +---src
+    |       bvh.cpp
+    |       image.cpp
+    |       main.cpp
+    |       mesh.cpp
+    |       scene_parser.cpp
+    |       texture.cpp
+    |       
+    +---testcases
+    |       empty.txt
+    |       minecraft.txt
+    |       space.txt
+    |       waterdrop.txt
+    |       
+    \---textures
+        |   earth.png
+        |   earthmap.jpg
+        |   skymap.jpg
+        |   space.png
+        |   
+        \---minecraft
+                dirt.png
+                grass_side.png
+                grass_top.png
+                oak_log.png
+                oak_log_top.png
+                oak_planks.png
+                stone.png
+                
