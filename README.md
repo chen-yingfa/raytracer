@@ -1,4 +1,4 @@
-# Raytracing
+# Raytracer
 Simple raytracer
 
 ## Rendering results
