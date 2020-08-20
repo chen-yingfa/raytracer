@@ -1,5 +1,6 @@
 # Raytracer
-Simple raytracer
+Simple raytracer 
+[![This](https://img.shields.io/badge/This-looks%20cool-red)](http://github.com/Blazing-Bonfire) [![](https://img.shields.io/badge/My-Page-blue)](Blazing-Bonfire.github.io)
 
 ## Rendering results
 
