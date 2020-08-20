@@ -1,13 +1,13 @@
-# Raytracing
+# Raytracer
 Simple raytracer
 
 ## Rendering results
 
-![final_minecraft_house](D:\Donny\code\raytracing\README.assets\final_minecraft_house.bmp)
+![final_minecraft_house](https://github.com/Blazing-Bonfire/raytracer/tree/master/README.assets/final_minecraft_house.bmp)
 
-![final_waterdrop](D:\Donny\code\raytracing\README.assets\final_waterdrop.bmp)
+![final_waterdrop](https://github.com/Blazing-Bonfire/raytracer/tree/master/README.assets/final_waterdrop.bmp)
 
-![final_glassRabbitSky](D:\Donny\code\raytracing\README.assets\final_glassRabbitSky.bmp)
+![final_glassRabbitSky](https://github.com/Blazing-Bonfire/raytracer/tree/master/README.assets/final_glassRabbitSky.bmp)
 
 ## Summary
 
