@@ -1,0 +1,26 @@
+PerspectiveCamera {
+    center 20 25 20 
+    direction -1 -1 -1
+    up 0 1 0
+    angle 30
+    width 640
+    height 480
+    aperture 0
+    focusDistance 24
+}
+
+
+Materials {
+    Metal {
+        color 1 1 1
+    }
+}
+
+Group {
+    numObjects 1
+    MaterialIndex 0
+    Sphere {
+        center 0 10 0
+        radius 1
+    }
+}

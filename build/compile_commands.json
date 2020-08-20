@@ -1,0 +1,79 @@
+[
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../include -I../deps/vecmath/include  -g   -std=gnu++11 -o CMakeFiles/PA1.dir/src/bvh.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/src/bvh.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/src/bvh.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../include -I../deps/vecmath/include  -g   -std=gnu++11 -o CMakeFiles/PA1.dir/src/image.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/src/image.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/src/image.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../include -I../deps/vecmath/include  -g   -std=gnu++11 -o CMakeFiles/PA1.dir/src/main.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/src/main.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/src/main.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../include -I../deps/vecmath/include  -g   -std=gnu++11 -o CMakeFiles/PA1.dir/src/mesh.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/src/mesh.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/src/mesh.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../include -I../deps/vecmath/include  -g   -std=gnu++11 -o CMakeFiles/PA1.dir/src/scene_parser.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/src/scene_parser.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/src/scene_parser.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../include -I../deps/vecmath/include  -g   -std=gnu++11 -o CMakeFiles/PA1.dir/src/texture.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/src/texture.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/src/texture.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../deps/vecmath/include  -g   -std=gnu++11 -o deps/vecmath/CMakeFiles/vecmath.dir/src/Matrix2f.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Matrix2f.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Matrix2f.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../deps/vecmath/include  -g   -std=gnu++11 -o deps/vecmath/CMakeFiles/vecmath.dir/src/Matrix3f.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Matrix3f.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Matrix3f.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../deps/vecmath/include  -g   -std=gnu++11 -o deps/vecmath/CMakeFiles/vecmath.dir/src/Matrix4f.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Matrix4f.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Matrix4f.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../deps/vecmath/include  -g   -std=gnu++11 -o deps/vecmath/CMakeFiles/vecmath.dir/src/Quat4f.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Quat4f.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Quat4f.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../deps/vecmath/include  -g   -std=gnu++11 -o deps/vecmath/CMakeFiles/vecmath.dir/src/Vector2f.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Vector2f.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Vector2f.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../deps/vecmath/include  -g   -std=gnu++11 -o deps/vecmath/CMakeFiles/vecmath.dir/src/Vector3f.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Vector3f.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Vector3f.cpp"
+},
+
+{
+  "directory": "/mnt/d/Donny/Code/ray-tracing/code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I../deps/vecmath/include  -g   -std=gnu++11 -o deps/vecmath/CMakeFiles/vecmath.dir/src/Vector4f.cpp.o -c /mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Vector4f.cpp",
+  "file": "/mnt/d/Donny/Code/ray-tracing/code/deps/vecmath/src/Vector4f.cpp"
+}
+]

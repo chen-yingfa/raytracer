@@ -1,0 +1,80 @@
+
+PerspectiveCamera {
+    center 0 0 18
+    direction 0 0 -4  
+    up 0 1 0
+    angle 30
+    width 640
+    height 480
+    aperture 0.2
+    focusDistance 16
+}
+
+Textures {
+    Image {
+        imgFile textures/skymap.jpg
+    }
+}
+
+Materials {
+    Metal {
+        color 1 1 1
+        fuzziness 0
+    }
+    Emissive {
+        texture 0
+    }
+}
+
+Group {
+    numObjects 4
+    MaterialIndex 0
+    Transform {
+        Translate 0 0 0
+        UniformScale 1
+        ZRotate 0
+        RevSurface {
+            profile BezierCurve {
+                controls
+                    [ 0 2 0 ]
+                    [ 0 1 0 ]
+                    [ 2 -2 0 ]
+                    [ 0 -2 0 ]
+            }
+        }
+    }
+    Transform {
+        Translate -3 0 -3
+        UniformScale 1
+        ZRotate 0
+        RevSurface {
+            profile BezierCurve {
+                controls
+                    [ 0 2 0 ]
+                    [ 0 1 0 ]
+                    [ 2 -2 0 ]
+                    [ 0 -2 0 ]
+            }
+        }
+    }
+    Transform {
+        Translate 3 0 -3
+        UniformScale 1
+        ZRotate 0
+        RevSurface {
+            profile BezierCurve {
+                controls
+                    [ 0 2 0 ]
+                    [ 0 1 0 ]
+                    [ 2 -2 0 ]
+                    [ 0 -2 0 ]
+            }
+        }
+    }
+    MaterialIndex 1
+    Sphere {
+        center 0 0 0
+        radius 1000
+    }
+}
+

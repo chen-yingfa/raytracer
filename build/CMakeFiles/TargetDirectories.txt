@@ -1,0 +1,6 @@
+/mnt/d/Donny/Code/ray-tracing/code/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/Donny/Code/ray-tracing/code/build/CMakeFiles/PA1.dir
+/mnt/d/Donny/Code/ray-tracing/code/build/CMakeFiles/edit_cache.dir
+/mnt/d/Donny/Code/ray-tracing/code/build/deps/vecmath/CMakeFiles/rebuild_cache.dir
+/mnt/d/Donny/Code/ray-tracing/code/build/deps/vecmath/CMakeFiles/vecmath.dir
+/mnt/d/Donny/Code/ray-tracing/code/build/deps/vecmath/CMakeFiles/edit_cache.dir

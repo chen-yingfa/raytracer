@@ -1,0 +1,87 @@
+
+PerspectiveCamera {
+    center 0 10 10
+    direction 0 -1 -1  
+    up 0 1 0
+    angle 30
+    width 100
+    height 100
+    aperture 0.1
+    focusDistance 14
+}
+
+Textures {
+    Image {
+        imgFile textures/space.png
+    }
+    Image {
+        imgFile textures/earth.png
+    }
+}
+
+Materials {
+    Lambert {
+        texture 0
+    }
+    Metal {
+        color 1 1 1
+        fuzziness 0.01
+    }
+    Emissive {
+        texture 1
+    }
+    Dielectric {
+        refractionIndex 1.1
+    }
+}
+
+Group {
+    numObjects 7
+    MaterialIndex 0
+    Sphere {
+        center 0 0 0
+        radius 500
+    }
+    MaterialIndex 1
+    Sphere {
+        center -1.5 0 0
+        radius 0.5
+    }
+    Sphere {
+        center 0 0 100
+        radius 0.5
+    }
+    Sphere {
+        center 15 0 0
+        radius 0.5
+    }
+    MaterialIndex 2
+    Sphere {
+        center 0 -500 0
+        radius 340
+    }
+    MaterialIndex 3
+    Transform {
+        Translate 0 100 -100
+        YRotate 45
+        UniformScale 6
+        TriangleMesh {
+            obj_file mesh/cube.obj
+        }
+    }
+    MaterialIndex 1
+    Transform {
+        ZRotate 90
+        Translate 0 0 0
+        RevSurface {
+            profile BezierCurve {
+                controls
+                    [ 0 2 0 ]
+                    [ 0 1 0 ]
+                    [ 2 -2 0 ]
+                    [ 0 -2 0 ]
+            }
+        }
+    }
+}
+
