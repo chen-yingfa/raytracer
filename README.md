@@ -3,11 +3,11 @@ Simple raytracer
 
 ## Rendering results
 
-![final_minecraft_house](https://github.com/Blazing-Bonfire/raytracer/tree/master/README.assets/final_minecraft_house.bmp)
+![final_minecraft_house](https://github.com/Blazing-Bonfire/raytracer/blob/master/README.assets/final_minecraft_house.png)
 
-![final_waterdrop](https://github.com/Blazing-Bonfire/raytracer/tree/master/README.assets/final_waterdrop.bmp)
+![final_waterdrop](https://github.com/Blazing-Bonfire/raytracer/blob/master/README.assets/final_waterdrop.png)
 
-![final_glassRabbitSky](https://github.com/Blazing-Bonfire/raytracer/tree/master/README.assets/final_glassRabbitSky.bmp)
+![final_glassRabbitSky](https://github.com/Blazing-Bonfire/raytracer/blob/master/README.assets/final_glassRabbitSky.png)
 
 ## Summary
 
